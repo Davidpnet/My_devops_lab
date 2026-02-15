@@ -4,3 +4,4 @@ interface GigabitEthernet0/0
  no shutdown
 !
 ip route 0.0.0.0 0.0.0.0 10.0.0.1
+description Managed by DevOps Team
