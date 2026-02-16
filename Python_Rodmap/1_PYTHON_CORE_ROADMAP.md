@@ -1,103 +1,117 @@
-Python Core Mastery Roadmap (20/80 Rule)
-Phase 1: The Syntax Foundation
-Focus: Data types and basic logic.
+הנה הרשימה המזוקקת של ה-**20/80** בלי ה"רעש" מסביב. הרשימה בנויה בצורה היררכית (Layered), טכנית ונקייה, כך שכל **AI Agent** או מראיין טכני יוכלו להבין בדיוק מהו גבול הידע שלך.
 
-[ ] Primitive Data Types
+שמור את זה כקובץ `PYTHON_ROADMAP.md` ב-**GitHub** שלך.
 
-Strings (Indexing, Slicing, and Methods)
+---
 
-Integers & Floats
+# Python Core Mastery Roadmap (20/80 Rule)
 
-Booleans
+## Phase 1: The Syntax Foundation
 
-[ ] String Interpolation
+*Focus: Data types and basic logic.*
 
-F-Strings (Formatted Strings)
+* [ ] **Primitive Data Types**
+* Strings (Indexing, Slicing, and Methods)
+* Integers & Floats
+* Booleans
 
-[ ] Basic Operators
 
-Arithmetic (+, -, *, /, //, %)
+* [ ] **String Interpolation**
+* F-Strings (Formatted Strings)
 
-Comparison (==, !=, >, <, >=, <=)
 
-Logical (and, or, not)
+* [ ] **Basic Operators**
+* Arithmetic (`+`, `-`, `*`, `/`, `//`, `%`)
+* Comparison (`==`, `!=`, `>`, `<`, `>=`, `<=`)
+* Logical (`and`, `or`, `not`)
 
-Phase 2: Data Structures
-Focus: Managing collections of data (Crucial for JSON/APIs).
 
-[ ] Lists
 
-Creation, Appending, and Removing elements
+## Phase 2: Data Structures
 
-Iterating through lists
+*Focus: Managing collections of data (Crucial for JSON/APIs).*
 
-List Comprehension (Basic filtering)
+* [ ] **Lists**
+* Creation, Appending, and Removing elements
+* Iterating through lists
+* List Comprehension (Basic filtering)
 
-[ ] Dictionaries
 
-Key-Value pairs access
+* [ ] **Dictionaries**
+* Key-Value pairs access
+* Adding/Updating keys
+* Nested Dictionaries (Accessing data inside complex structures)
 
-Adding/Updating keys
 
-Nested Dictionaries (Accessing data inside complex structures)
+* [ ] **Sets & Tuples**
+* Removing duplicates (Sets)
+* Immutable sequences (Tuples)
 
-[ ] Sets & Tuples
 
-Removing duplicates (Sets)
 
-Immutable sequences (Tuples)
+## Phase 3: Control Flow & Logic
 
-Phase 3: Control Flow & Logic
-Focus: Decision making and repetition.
+*Focus: Decision making and repetition.*
 
-[ ] Conditional Logic
+* [ ] **Conditional Logic**
+* `if`, `elif`, `else` statements
 
-if, elif, else statements
 
-[ ] Loops
+* [ ] **Loops**
+* `for` loops (Iterating over sequences)
+* `while` loops (Basic conditional execution)
+* `break` and `continue` statements
 
-for loops (Iterating over sequences)
 
-while loops (Basic conditional execution)
 
-break and continue statements
+## Phase 4: Functional Programming & Scope
 
-Phase 4: Functional Programming & Scope
-Focus: Code reusability and organization.
+*Focus: Code reusability and organization.*
 
-[ ] Functions
+* [ ] **Functions**
+* Defining functions (`def`)
+* Arguments and Keyword Arguments (`args`, `kwargs`)
+* Return values
 
-Defining functions (def)
 
-Arguments and Keyword Arguments (args, kwargs)
+* [ ] **Scope**
+* Global vs. Local variables
 
-Return values
 
-[ ] Scope
+* [ ] **Built-in Functions**
+* `len()`, `type()`, `range()`, `enumerate()`, `zip()`
 
-Global vs. Local variables
 
-[ ] Built-in Functions
 
-len(), type(), range(), enumerate(), zip()
+## Phase 5: Error Handling & Modules
 
-Phase 5: Error Handling & Modules
-Focus: Making code resilient and modular.
+*Focus: Making code resilient and modular.*
 
-[ ] Exception Handling
+* [ ] **Exception Handling**
+* `try`, `except`, `finally` blocks
+* Handling specific errors (e.g., `KeyError`, `ValueError`, `FileNotFoundError`)
 
-try, except, finally blocks
 
-Handling specific errors (e.g., KeyError, ValueError, FileNotFoundError)
+* [ ] **Modules & Packages**
+* `import` statements
+* Standard Libraries: `os`, `sys`, `json`, `datetime`
 
-[ ] Modules & Packages
 
-import statements
+* [ ] **Environment Management**
+* Creating and managing Virtual Environments (`venv`)
+* Using `pip` and `requirements.txt`
 
-Standard Libraries: os, sys, json, datetime
 
-[ ] Environment Management
 
-Creating and managing Virtual Environments (venv)
+---
 
-Using pip and requirements.txt
+### **Excluded Topics (The 80% Non-Essential)**
+
+*Note: These are intentionally omitted to maintain focus on Pareto-efficiency.*
+
+* Object-Oriented Programming (Classes/Inheritance)
+* Decorators & Generators
+* Multithreading & Asyncio
+* Advanced Algorithms & Data Structures
+
+---
