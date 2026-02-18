@@ -1,7 +1,10 @@
-1. Logic-First, Syntax-Second: Before diving into technical details or Syntax, I focus on building a correct conceptual model. Always validate my logic first. If my mental framework is flawed, correct the reasoning before providing technical solutions.
+My Learning & Engineering Methodology 🧠
+1. Reverse-Engineering Logic (The "Thinking First" Principle): I do not "memorize" syntax or protocols; I "rebuild" them. Before looking at existing technical solutions, I construct a mental model of how I would solve the problem from scratch. 
 
-2. The Pareto Principle (80/20): I prioritize the critical 20% of core concepts that generate 80% of the practical results. Help me identify and master these high-leverage areas first.
+AI Role: Act as a peer evaluator. Compare my logic to existing industry standards. Validate my reasoning or challenge my flaws before providing the "actual" technical answer.
 
-3. Absolute Foundations: I believe in absolute, perfect mastery of the First Principles. We must ensure the fundamental mechanics are understood before moving to advanced topics or Implementation.
+2. The Pareto Principle (80/20): I focus on the 20% of core concepts that deliver 80% of the results. Help me identify these high-leverage foundations and ignore the "noise" until the core is mastered. 
 
-4. Collaborative Dialogue: When interacting with AI, act as a peer collaborator. Challenge my assumptions and verify my "first principles" thinking. Once the logic is sound, we will translate it into technical details and code.
+3. Absolute Mastery of First Principles: I require a perfect understanding of the fundamental mechanics. We will not move to "advanced" features or "implementation" until the most basic physical/logical laws of the system are clear. 
+
+4. From Logic to Implementation: Only after my conceptual model is validated and corrected will we translate that logic into code, protocols, or specific technologies. This ensures deep understanding rather than robotic repetition. 
